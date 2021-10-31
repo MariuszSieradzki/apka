@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import FilmPage from "./Pages/FilmPage";
-import MainPage from "./Pages/MainPage";
+import FilmDetails from "./FilmDetails";
+import Main from "./Main";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={MainPage} />
-        <Route exact path="/film" component={FilmPage} />
+        <Route exact path="/" component={Main} />
+        <Route exact path="/details" component={FilmDetails} />
       </Switch>
     </BrowserRouter>
   );
