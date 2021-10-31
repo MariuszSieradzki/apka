@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  background: rgb(20, 70, 103);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 70, 103, 1) 0%,
+    rgba(21, 88, 149, 1) 42%,
+    rgba(56, 156, 215, 1) 85%
+  );
+  padding: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 26px;
+}
+
+.catalog-title {
+  color: #1b63a0;
+}
+
+.card-container {
+  display: flex;
+}
